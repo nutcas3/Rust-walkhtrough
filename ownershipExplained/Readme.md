@@ -1,5 +1,7 @@
 In Rust, ownership is a key concept that ensures memory safety and eliminates many common bugs at compile time. It's a core feature of the language and is enforced by the Rust compiler.
 
+This ownership model allows Rust to enforce memory safety without needing a garbage collector. 
+
 Here's a breakdown of ownership in Rust:
 
     Ownership Rules:
@@ -26,3 +28,7 @@ Here's a breakdown of ownership in Rust:
         References are another way to pass data without taking ownership.
         References are indicated by the & symbol.
         Lifetimes ensure that references are valid for as long as they are used.
+
+
+
+how to run this always `Cargo run`
